@@ -1,0 +1,43 @@
+
+*{
+padding: 0;
+margin: 0;
+}
+.footer {
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border-top:  solid rgba(38, 17, 228, 0.863);
+    background-color: rgba(90, 89, 89, 0.863);
+}
+
+.navbar{
+    border-bottom: solid rgba(90, 89, 89, 0.863);
+   background-color:white
+}
+.body { 
+    background: url(/img/back2.jpg) no-repeat center fixed; 
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    
+  }
+
+  .banner{
+    position: relative;}
+
+.text {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    background-color: rgba(0, 0, 255, 0.712)
+  }
+  
+  img { 
+    width: 60%;
+    height: auto;
+
+    
+  }
