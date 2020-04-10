@@ -13,11 +13,11 @@ margin: 0;
 }
 
 .navbar{
-    border-bottom: solid rgba(90, 89, 89, 0.863);
+    border-bottom: solid rgba(38, 17, 228, 0.863);
    background-color:white
 }
 .body { 
-    background: url(/img/back2.jpg)  center fixed; 
+    background-color: rgba(60, 70, 77, 0.288);
     background-size: cover;
     width: 100%;
     height: auto;
