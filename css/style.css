@@ -9,6 +9,7 @@ margin: 0;
     text-align: center;
     border-top:  solid rgba(38, 17, 228, 0.863);
     background-color: rgba(90, 89, 89, 0.863);
+    clear: both;
 }
 
 .navbar{
@@ -16,7 +17,7 @@ margin: 0;
    background-color:white
 }
 .body { 
-    background: url(/img/back2.jpg) no-repeat center fixed; 
+    background: url(/img/back2.jpg)  center fixed; 
     background-size: cover;
     width: 100%;
     height: auto;
