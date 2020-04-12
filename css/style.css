@@ -3,13 +3,26 @@
 padding: 0;
 margin: 0;
 }
-.footer {
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    border-top:  solid rgba(38, 17, 228, 0.863);
-    background-color: rgba(90, 89, 89, 0.863);
-    clear: both;
+
+footer{
+  padding: 20px;
+  margin-top: auto;
+  color: #ffffff;
+  background-color:rgb(51, 47, 47);
+  text-align: center;
+  border-top: solid rgba(0, 0, 255, 0.712);
+  clear: both;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  line-height: 2;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(60, 70, 77, 0.288);
+  background-size: cover;
+  width: 100%;
+  height: auto;
 }
 
 .navbar{
@@ -17,6 +30,7 @@ margin: 0;
    background-color:white
 }
 .body { 
+  
     background-color: rgba(60, 70, 77, 0.288);
     background-size: cover;
     width: 100%;
@@ -39,6 +53,44 @@ margin: 0;
   img { 
     width: 60%;
     height: auto;
-
-    
+ 
   }
+  
+   header .current a{
+    color:#242422;
+    font-weight: bold;
+    
+   }
+   header a:hover{
+    color: red;
+    font-weight: bold;
+  }
+
+  p{
+    margin-top: 100px;
+    margin-right: 10px;
+    text-align: justify;
+    line-height: 2;
+    margin-left: 10px;
+  }
+  .container{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 10px ;
+    margin-top: 10px;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  header a{
+    color:  rgba(0, 0, 255, 0.712);
+    text-decoration: none;
+    font-size: 16px;  
+    text-transform: uppercase;
+  }
+  
+
+  
+  
+  
+  
