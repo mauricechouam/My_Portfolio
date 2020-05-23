@@ -452,6 +452,20 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-about:hover {
   background:  #b93737;
 }
+ul a:hover {
+  color: #b93737;
+}
+#send:hover{
+  background:  #b93737;
+}
+#cv:hover{
+  background:  #b93737;
+
+}
+#top:hover{
+  background:  #b93737;
+
+}
 
 @media (min-width: 1024px) {
   #hero {
